@@ -1,6 +1,6 @@
 # Ansible Playbook Docker Image
 
-Executes ansible-playbook command against an externally mounted set of Ansible playbooks
+Executes ansible-playbook command against an externally mounted set of Ansible playbooks ( [@see](https://medium.com/@tech_phil/running-ansible-inside-docker-550d3bb2bdff) ) 
 
 ```
 docker run --rm -it -v PATH_TO_LOCAL_PLAYBOOKS_DIR:/ansible/playbooks philm/ansible_playbook PLAYBOOK_FILE
